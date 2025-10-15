@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Avatar Web Starter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="overlay">
+    <div id="stepText">Loading...</div>
+    <button id="nextStepBtn">Next</button>
+  </div>
+
+  <div id="ui-panel">
+    <h3>Character Customization</h3>
+    <label>Mouth Open: <input type="range" id="morph-mouth" min="0" max="1" step="0.01" value="0" /></label><br/>
+    <label>Skin Color: <input type="color" id="color-skin" value="#ffffff" /></label><br/>
+    </div>
+
+  <div id="infoBox">
+    <p>Location: <span id="locationText">—</span></p>
+    <p>Speech: <span id="speechText">—</span></p>
+  </div>
+
+  <canvas id="canvas3d"></canvas>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

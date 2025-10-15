@@ -1,0 +1,17 @@
+# Node / npm
+node_modules/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*.log
+*.tmp
+*.bak
+
+# Large assets (if needed)
+assets/*.bin
+assets/*.mp4
+assets/*.zip

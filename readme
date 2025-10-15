@@ -1,0 +1,27 @@
+# 3D Avatar Website
+
+A simple 3D web app that includes:
+
+- Character loading and animation
+- Lip sync
+- Face tracking
+- Geolocation
+- Character customization (color, morphs)
+
+## How to Run
+
+1. Open the folder in VS Code.
+2. Install the "Live Server" extension.
+3. Right-click `index.html` and click **"Open with Live Server"**.
+4. Allow webcam and location access when prompted.
+
+## Assets
+
+- Place your `avatar.glb` in the `assets/` folder.
+- Add `lipsync_profile.json` if using wLipSync.
+
+## Tech Used
+
+- [Three.js](https://threejs.org/)
+- [MediaPipe Holistic](https://google.github.io/mediapipe/)
+- [Kalidokit](https://github.com/yeemachine/kalidokit)
